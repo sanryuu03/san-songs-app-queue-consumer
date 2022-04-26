@@ -1,0 +1,13 @@
+# node-postgres configuration
+PGUSER=san
+PGHOST=localhost
+PGPASSWORD=leviana250520
+PGDATABASE=openmusicv1
+PGPORT=5432
+
+# nodemailer SMTP authentication
+MAIL_ADDRESS=tdua555@gmail.com
+MAIL_PASSWORD=tdua5552
+
+# Message broker
+RABBITMQ_SERVER=amqp://localhost
