@@ -2,7 +2,13 @@ const {Pool} = require('pg');
 
 class SongsService {
   constructor() {
-    this._pool = new Pool();
+    this._pool = new Pool({
+      user: 'san',
+      host: 'localhost',
+      database: 'openmusicv1',
+      password: 'leviana250520',
+      port: 5432,
+    });
   }
 
   async getSongs(userId) {
